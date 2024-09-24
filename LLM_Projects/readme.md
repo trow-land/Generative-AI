@@ -7,7 +7,7 @@ This project focuses tune a model to make concise, one- or two-sentence highligh
 ## Project Structure
 
 - **News_article_highlights.ipynb**: Jupyter notebook containing the implementation for generating summaries of news articles using a pre-trained language model. It includes preprocessing, tokenization, summary generation, and result evaluation.
-- **dataset**: The dataset used for this project was the (cnn_dailymai)[https://huggingface.co/datasets/abisee/cnn_dailymail] l dataset from huggingface
+- **dataset**: The dataset used for this project was the [CNN_DailyMail](https://huggingface.co/datasets/abisee/cnn_dailymail) dataset from huggingface
 
 ## Dataset
 
