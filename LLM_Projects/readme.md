@@ -30,10 +30,10 @@ pip install transformers datasets torch evaluate
 
 ## Model Used
 
-The project utilizes a pre-trained language model from the Hugging Face library for text summarization. Specifically:
+The project utilises a pre-trained language model from the Hugging Face library for text summarisation. Specifically:
 
-- **Model**: ['BART'] 
-- **Tokenizer**: Corresponding tokenizer for the pre-trained model.
+- **Model**: `BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")`
+- **Tokenizer**: `AutoTokenizer.from_pretrained("facebook/bart-large-cnn")`
 
 ## Preprocessing
 
